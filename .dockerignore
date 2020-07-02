@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Include application files
+!public
+!src
+!.nvmrc
+
+# Include build files
+!entrypoint.sh
+!package.json
+!yarn.lock
+!vue.config.js
+!.eslintrc.js
