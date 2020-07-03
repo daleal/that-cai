@@ -28,13 +28,6 @@
           </router-link>
           <router-link
             v-if="userData.status.loggedIn"
-            :to="{ name: 'ChatsPage' }"
-            class="navbar-item"
-          >
-            Chats
-          </router-link>
-          <router-link
-            v-if="userData.status.loggedIn"
             :to="{ name: 'OrganizationsPage' }"
             class="navbar-item"
           >

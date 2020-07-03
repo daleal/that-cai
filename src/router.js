@@ -4,7 +4,6 @@ import VueRouter from 'vue-router';
 import HomePage from '@/views/HomePage.vue';
 import LoginPage from '@/views/LoginPage.vue';
 
-import ChatsPage from '@/views/ChatsPage.vue';
 import OrganizationsPage from '@/views/OrganizationsPage.vue';
 import OrganizationPage from '@/views/OrganizationPage.vue';
 import ArticlesPage from '@/views/ArticlesPage.vue';
@@ -27,11 +26,6 @@ const router = new VueRouter({
       path: '/login',
       name: 'LoginPage',
       component: LoginPage,
-    },
-    {
-      path: '/chats',
-      name: 'ChatsPage',
-      component: ChatsPage,
     },
     {
       path: '/organizations',
